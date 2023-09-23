@@ -11,4 +11,4 @@ async function btnSearchClicked(){
     console.log(data);
 }
 
-//Home page 
+//Home page is a main page
