@@ -12,13 +12,13 @@
     </head>
     <body bgcolor="#282323">
         
-        <div class="header"></div>
-        <img src="assets/Logo.png" class="logo">
-        <h1 class="name">Real Time Weather</h1>
-        <a href="Map.html" class="map">Map</a>
-        <a href="" class="logIn">Log in</a>
-        <a href="" class="signIn">Sign in</a>
-        <a href="Settings.html"><img src="assets/Settings2.png" class="settingsIcon"></a>
+        <div id="header"></div>
+        <img src="assets/Logo.png" id="logo">
+        <h1 id="name">Real Time Weather</h1>
+        <a href="Map.html" id="map">Map</a>
+        <a href="" id="logIn">Log in</a>
+        <a href="" id="signIn">Sign in</a>
+        <a href="Settings.html"><img src="assets/Settings2.png" id="settingsIcon"></a>
 
         <br>
         <br>
@@ -26,21 +26,21 @@
         <br>
 
         <center>
-            <input type="text" class="txtSearch">
+            <input type="text" id="txtSearch">
         </center>
-        <img src="assets/Search.png" class="searchIcon" onclick="btnSearchClicked()">
+        <img src="assets/Search.png" id="searchIcon" onclick="btnSearchClicked()">
 
         <br>
         <br>
         <br>
 
-        <div class="divOfCurrentWeather">
-            <center><h1 class="currentWeather">Current Weather</h1></center>
+        <div id="divOfCurrentWeather">
+            <center><h1 id="currentWeather">Current Weather</h1></center>
             
             <br>
             
-            <img src="assets/Temperature.png" class="temperatureIcon1">
-            <img src="assets/Humidity.png" class="humidityIcon1">
+            <img src="assets/Temperature.png" id="temperatureIcon1">
+            <img src="assets/Humidity.png" id="humidityIcon1">
             
             <br>
             <br>
@@ -52,21 +52,31 @@
             <br>
             <br>
             
-            <img src="assets/Precipition.png" class="precipitionIcon1">
-            <img src="assets/WindSpeed.png" class="windSpeedIcon1">
+            <img src="assets/Precipition.png" id="precipitionIcon1">
+            <img src="assets/WindSpeed.png" id="windSpeedIcon1">
 
-            <h2 class="valuesOfTemperature1">
+            <h2 id="valuesOfTemperature1">
             </h2>
 
-            <h2 class="valuesOfHumidity1">
+            <h2 id="valuesOfHumidity1">
             </h2>
 
-            <h2 class="valuesOfPrecipition1">
+            <h2 id="valuesOfPrecipition1">
             </h2>
 
-            <h2 class="valuesOfWindSpeed1">
+            <h2 id="valuesOfWindSpeed1">
             </h2>
-        </div>        
+
+            <center>
+                <div id="conditionDiv1">
+                    <center>
+                    <img src="" id="conditionIcon1">
+                    <h3 id="conditionText1"></h3>
+                    </center>
+                </div>    
+            </center>
+            
+        </div>
 
         <script src="HomePage.js"></script>
     </body>
