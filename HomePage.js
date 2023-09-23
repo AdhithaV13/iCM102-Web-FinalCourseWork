@@ -10,3 +10,5 @@ async function btnSearchClicked(){
 
     console.log(data);
 }
+
+//Home page 
