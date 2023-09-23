@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Real Time Weather
+        </title>
+        <link rel="stylesheet" href="HomePage.css">
+        <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=KoHo:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=KoHo:wght@600&family=Koh+Santepheap:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=KoHo:wght@600&family=Krona+One&display=swap" rel="stylesheet">
+    </head>
+    <body bgcolor="#282323">
+        
+        <div class="header"></div>
+        <img src="assets/Logo.png" class="logo">
+        <h1 class="name">Real Time Weather</h1>
+        <a href="Map.html" class="map">Map</a>
+        <a href="" class="logIn">Log in</a>
+        <a href="" class="signIn">Sign in</a>
+        <a href="Settings.html"><img src="assets/Settings2.png" class="settingsIcon"></a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <center>
+            <input type="text" class="txtSearch">
+        </center>
+        <img src="assets/Search.png" class="searchIcon" onclick="btnSearchClicked()">
+
+        <br>
+        <br>
+        <br>
+
+        <div class="divOfCurrentWeather">
+            <center><h1 class="currentWeather">Current Weather</h1></center>
+            
+            <br>
+            
+            <img src="assets/Temperature.png" class="temperatureIcon1">
+            <img src="assets/Humidity.png" class="humidityIcon1">
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <img src="assets/Precipition.png" class="precipitionIcon1">
+            <img src="assets/WindSpeed.png" class="windSpeedIcon1">
+
+            <h2 class="valuesOfTemperature1">
+            </h2>
+
+            <h2 class="valuesOfHumidity1">
+            </h2>
+
+            <h2 class="valuesOfPrecipition1">
+            </h2>
+
+            <h2 class="valuesOfWindSpeed1">
+            </h2>
+        </div>        
+
+        <script src="HomePage.js"></script>
+    </body>
+</html>

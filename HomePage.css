@@ -1,0 +1,133 @@
+.header{
+    background-color: rgb(0, 0, 0);
+    width: 1520px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -55px;
+    margin-left: 15px;
+}
+
+.name{
+    position: absolute;
+    font-family: "KoHo";
+    color: #FF7A00;
+    margin-top: -53px;
+    margin-left: 80px;
+}
+
+.map{
+    position: absolute;
+    color: #FF7A00;
+    margin-top: -40px;
+    margin-left: 1220px;
+}
+
+.logIn{
+    position: absolute;
+    color: #FF7A00;
+    margin-top: -40px;
+    margin-left: 1290px;
+}
+
+.signIn{
+    position: absolute;
+    color: #FF7A00;
+    margin-top: -40px;
+    margin-left: 1370px;
+}
+
+.settingsIcon{
+    position: absolute;
+    color: #FF7A00;
+    margin-top: -50px;
+    margin-left: 1450px;
+    height: 35px;
+    width: 35px;
+}
+
+.txtSearch{
+    height: 30px;
+    width: 1000px;
+    border-radius: 50px;
+    font-family: "Kanit";
+    font-size: x-large;
+}
+
+.searchIcon{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-top: -33px;
+    margin-left: 1220px;
+}
+
+.divOfCurrentWeather{
+    position: absolute;
+    height: 480px;
+    width: 750px;
+    background: transparent;
+    border: 4px solid #FF7A00;
+}
+
+.currentWeather{
+    font-family: "Koh Santepheap";
+    color: aliceblue;
+}
+
+.temperatureIcon1{
+    height: 70px;
+    width: 70px;
+    margin-left: 75px;
+}
+
+.humidityIcon1{
+    height: 70px;
+    width: 70px;
+    margin-left: 430px;
+}
+
+.precipitionIcon1{
+    height: 70px;
+    width: 70px;
+    margin-left: 75px;
+}
+
+.windSpeedIcon1{
+    height: 70px;
+    width: 70px;
+    margin-left: 430px;
+}
+
+.valuesOfTemperature1{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -220px;
+    margin-left: 45px;
+}
+
+.valuesOfHumidity1{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -110px;
+    margin-left: 585px;
+}
+
+.valuesOfPrecipition1{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: 180px;
+    margin-left: 45px;
+}
+
+.valuesOfWindSpeed1{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -75px;
+    margin-left: 550px;
+}
