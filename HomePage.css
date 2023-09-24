@@ -1,6 +1,6 @@
 #header{
     background-color: rgb(0, 0, 0);
-    width: 1520px;
+    width: 1500px;
     height: 60px;
     border-radius: 15px;
 }
@@ -69,7 +69,7 @@
 
 #divOfCurrentWeather{
     position: absolute;
-    height: 480px;
+    height: 490px;
     width: 750px;
     background: transparent;
     border: 4px solid #FF7A00;
@@ -145,4 +145,210 @@
 
 #conditionDiv1{
     margin-top: -275px;
+}
+
+
+
+
+
+
+
+
+
+#divOfForecastWeather{
+    position: absolute;
+    height: 490px;
+    width: 735px;
+    background: transparent;
+    border: 4px solid #FF7A00;
+    margin-left: 765px;
+}
+
+#forecastWeather{
+    font-family: "Koh Santepheap";
+    color: aliceblue;
+}
+
+#temperatureIcon2{
+    height: 70px;
+    width: 70px;
+    margin-left: 75px;
+}
+
+#humidityIcon2{
+    height: 70px;
+    width: 70px;
+    margin-left: 430px;
+}
+
+#precipitionIcon2{
+    height: 70px;
+    width: 70px;
+    margin-left: 75px;
+}
+
+#windSpeedIcon2{
+    height: 70px;
+    width: 70px;
+    margin-left: 430px;
+}
+
+#valuesOfTemperature2{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -220px;
+    margin-left: 45px;
+}
+
+#valuesOfHumidity2{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -110px;
+    margin-left: 585px;
+}
+
+#valuesOfPrecipition2{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: 180px;
+    margin-left: 45px;
+}
+
+#valuesOfWindSpeed2{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -75px;
+    margin-left: 550px;
+}
+
+#conditionIcon2{
+    height: 120px;
+    width: 120px;
+}
+
+#conditionText2{
+    color: aqua;
+    font-family: "Krona One";
+    font-size: small;
+}
+
+#conditionDiv2{
+    margin-top: -275px;
+}
+
+#txtDate{
+    border-radius: 10px;
+    font-weight: 500;
+    height: 20px;
+}
+
+#btnDateSubmit{
+    border-radius: 10px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#divOfHistoricalWeather{
+    position: absolute;
+    height: 490px;
+    width: 750px;
+    background: transparent;
+    border: 4px solid #FF7A00;
+    margin-left: 375px;
+    margin-top: 7px;
+}
+
+#historicalWeather{
+    font-family: "Koh Santepheap";
+    color: aliceblue;
+}
+
+#temperatureIcon3{
+    height: 70px;
+    width: 70px;
+    margin-left: 75px;
+}
+
+#humidityIcon3{
+    height: 70px;
+    width: 70px;
+    margin-left: 430px;
+}
+
+#precipitionIcon3{
+    height: 70px;
+    width: 70px;
+    margin-left: 75px;
+}
+
+#windSpeedIcon3{
+    height: 70px;
+    width: 70px;
+    margin-left: 430px;
+}
+
+#valuesOfTemperature3{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -220px;
+    margin-left: 45px;
+}
+
+#valuesOfHumidity3{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -110px;
+    margin-left: 585px;
+}
+
+#valuesOfPrecipition3{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: 180px;
+    margin-left: 45px;
+}
+
+#valuesOfWindSpeed3{
+    font-family: "Krona One";
+    color: aliceblue;
+    margin-top: -75px;
+    margin-left: 550px;
+}
+
+#conditionIcon3{
+    height: 120px;
+    width: 120px;
+}
+
+#conditionText3{
+    color: aqua;
+    font-family: "Krona One";
+    font-size: small;
+}
+
+#conditionDiv3{
+    margin-top: -275px;
+}
+
+#txtDays{
+    border-radius: 10px;
+    font-weight: 500;
+    height: 20px;
+}
+
+#btnDaysSubmit{
+    border-radius: 10px;
+    height: 25px;
 }
