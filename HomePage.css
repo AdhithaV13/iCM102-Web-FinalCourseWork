@@ -67,6 +67,27 @@
     margin-left: 1220px;
 }
 
+#description{
+    position: absolute;
+    margin-top: -1px;
+    color: aliceblue;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #divOfCurrentWeather{
     position: absolute;
     height: 490px;
