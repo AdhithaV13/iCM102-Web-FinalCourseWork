@@ -1,0 +1,182 @@
+#header{
+    background-color: rgb(0, 0, 0);
+    width: 1500px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+#btnBack{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -55px;
+    margin-left: 1445px;
+}
+
+#name{
+    position: absolute;
+    font-family: "KoHo";
+    color: #FF7A00;
+    margin-top: -53px;
+    margin-left: 1025px;
+}
+
+#themes{
+    font-family: "KoHo";
+    color: aliceblue;
+}
+
+#themeUnderline{
+    position: absolute;
+    margin-top: -24px;
+    background-color: aliceblue;
+    width: 1500px;
+    height: 2px;
+}
+
+#backDivOfLightTheme{
+    position: absolute;
+    background-color: blue;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+}
+
+#backDivOfDarkTheme{
+    background-color: blue;
+    border-radius: 25px;
+    margin-left: 1200px;
+    height: 300px;
+    width: 300px;
+}
+
+#frontDivOfLightTheme{
+    position: absolute;
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 12px;
+    margin-top: 20px;
+    height: 200px;
+    width: 275px;
+}
+
+#frontDivOfDarkTheme{
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 12px;
+    margin-top: 20px;
+    height: 200px;
+    width: 275px;
+}
+
+#txtDarkTheme{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 90px;
+    font-family: "Knewave";
+}
+
+#txtWhiteTheme{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 1285px;
+    font-family: "Knewave";
+}
+
+#backgrounds{
+    font-family: "KoHo";
+    color: aliceblue;
+}
+
+#backgroundUnderline{
+    position: absolute;
+    margin-top: -20px;
+    background-color: aliceblue;
+    width: 1500px;
+    height: 2px;
+}
+
+#divOfSetPic1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#divOfSetPic2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pic1{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#pic2{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#pic3{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#pic4{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#pic5{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#pic6{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#pic7{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#pic8{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#language{
+    font-family: "KoHo";
+    color: aliceblue;
+}
+
+#languageUnderline{
+    position: absolute;
+    margin-top: -20px;
+    background-color: aliceblue;
+    width: 1500px;
+    height: 2px;
+}
+
+#selection{
+    height: 20px;
+    width: 300px;
+}

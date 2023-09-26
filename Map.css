@@ -1,0 +1,35 @@
+#header{
+    background-color: rgb(0, 0, 0);
+    width: 1500px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+#btnBack{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -55px;
+    margin-left: 1445px;
+}
+
+#name{
+    position: absolute;
+    font-family: "KoHo";
+    color: #FF7A00;
+    margin-top: -53px;
+    margin-left: 1025px;
+}
+
+#locationMap{
+    height: 635px;
+    width: 1500px;
+}
