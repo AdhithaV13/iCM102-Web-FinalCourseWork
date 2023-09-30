@@ -73,7 +73,7 @@ async function txtDateEntered(){
 async function defaultValues(){
     //--------------------Current Weather----------------------
     const apiKey = "44c917daebe44e7dbf3153750231409";
-    const urlCurrent = "https://api.weatherapi.com/v1/current.json?key=";
+    const urlCurrent = "http://api.weatherapi.com/v1/current.json?key=";
     let city = "Colombo";
         
     const response=await fetch(urlCurrent+`${apiKey}&q=`+city);
