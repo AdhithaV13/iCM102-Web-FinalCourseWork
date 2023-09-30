@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=KoHo:wght@600&family=Krona+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Knewave&family=KoHo:wght@600&family=Krona+One&display=swap" rel="stylesheet">
     </head>
-    <body bgcolor="#282323" id="body3">
+    <body id="body3">
         <div id="header"></div>
         <a href="HomePage.html"><img src="assets/Back.png" id="btnBack"></a>
         <img src="assets/Logo.png" id="logo">
@@ -22,13 +22,13 @@
 
         <div id="backDivOfLightTheme">
             <center>
-                <div id="frontDivOfLightTheme"></div>
+                <div id="frontDivOfLightTheme" onclick="darkThemeEnabled()"></div>
             </center>
         </div>
         <center>
             <div id="backDivOfDarkTheme">
                 <center>
-                    <div id="frontDivOfDarkTheme"></div>
+                    <div id="frontDivOfDarkTheme" onclick="lightThemeEnabled()"></div>
                 </center>
             </div>
         </center>
@@ -44,20 +44,20 @@
         <div id="backgroundUnderline"></div>
 
         <div id="divOfSetPic1">
-            <img src="assets/Backgrounds/1.jpg" id="pic1">
-            <img src="assets/Backgrounds/2.png" id="pic2">
-            <img src="assets/Backgrounds/3.jpg" id="pic3">
-            <img src="assets/Backgrounds/4.jpg" id="pic4">
+            <img src="assets/Backgrounds/1.jpg" id="pic1" onclick="pic1Clicked()">
+            <img src="assets/Backgrounds/2.png" id="pic2" onclick="pic2Clicked()">
+            <img src="assets/Backgrounds/3.jpg" id="pic3" onclick="pic3Clicked()">
+            <img src="assets/Backgrounds/4.jpg" id="pic4" onclick="pic4Clicked()">
         </div>
 
         <br>
         <br>
 
         <div id="divOfSetPic2">
-            <img src="assets/Backgrounds/5.jpg" id="pic5">
-            <img src="assets/Backgrounds/6.jfif" id="pic6">
-            <img src="assets/Backgrounds/7.jpg" id="pic7">
-            <img src="assets/Backgrounds/8.jpg" id="pic8">
+            <img src="assets/Backgrounds/5.jpg" id="pic5" onclick="pic5Clicked()">
+            <img src="assets/Backgrounds/6.jfif" id="pic6" onclick="pic6Clicked()">
+            <img src="assets/Backgrounds/7.jpg" id="pic7" onclick="pic7Clicked()">
+            <img src="assets/Backgrounds/8.jpg" id="pic8" onclick="pic8Clicked()">
         </div>
 
         <br>
@@ -79,6 +79,6 @@
 
         <button id="btnRefresh">Refresh</button>
 
-        <script src="HomePage.js"></script>
+        <script src="Settings.js"></script>
     </body>
 </html>
