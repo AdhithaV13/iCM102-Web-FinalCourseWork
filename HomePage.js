@@ -3,7 +3,7 @@ defaultValues();
 async function btnSearchClicked(){
     //------------------------Current Weather----------------------------------
     const apiKey = "44c917daebe44e7dbf3153750231409";
-    const urlCurrent = "http://api.weatherapi.com/v1/current.json?key=";
+    const urlCurrent = "https://api.weatherapi.com/v1/current.json?key=";
     let city = document.getElementById('txtSearch').value;
         
     const response=await fetch(urlCurrent+`${apiKey}&q=`+city);
@@ -21,7 +21,7 @@ async function btnSearchClicked(){
 async function txtDateEntered1(){
     //-------------------Historical Weather------------------------
     const apiKey2 = "44c917daebe44e7dbf3153750231409";
-    const urlHistorical = "http://api.weatherapi.com/v1/history.json?key=";
+    const urlHistorical = "https://api.weatherapi.com/v1/history.json?key=";
     let city2 = document.getElementById("txtSearch").value;
     let date1 = document.getElementById("txtDate1").value;
 
@@ -49,7 +49,7 @@ async function txtDateEntered(){
     let today2 = new Date(today);
 
     const apiKey1 = "44c917daebe44e7dbf3153750231409";
-    const urlFuture = "http://api.weatherapi.com/v1/forecast.json?key=";
+    const urlFuture = "https://api.weatherapi.com/v1/forecast.json?key=";
     let city1 = document.getElementById("txtSearch").value;
     let date = new Date(document.getElementById("txtDate").value);
 
@@ -73,7 +73,7 @@ async function txtDateEntered(){
 async function defaultValues(){
     //--------------------Current Weather----------------------
     const apiKey = "44c917daebe44e7dbf3153750231409";
-    const urlCurrent = "http://api.weatherapi.com/v1/current.json?key=";
+    const urlCurrent = "https://api.weatherapi.com/v1/current.json?key=";
     let city = "Colombo";
         
     const response=await fetch(urlCurrent+`${apiKey}&q=`+city);
@@ -89,7 +89,7 @@ async function defaultValues(){
 
     //-------------------Future Weather------------------------
     const apiKey1 = "44c917daebe44e7dbf3153750231409";
-    const urlFuture = "http://api.weatherapi.com/v1/forecast.json?key=";
+    const urlFuture = "https://api.weatherapi.com/v1/forecast.json?key=";
     let city1 = "Colombo";
     let days = "1";
 
@@ -106,7 +106,7 @@ async function defaultValues(){
 
     //-------------------Historical Weather------------------------
     const apiKey2 = "44c917daebe44e7dbf3153750231409";
-    const urlHistorical = "http://api.weatherapi.com/v1/history.json?key=";
+    const urlHistorical = "https://api.weatherapi.com/v1/history.json?key=";
     let city2 = "Colombo";
     let date1 = "2023-09-25";
 
