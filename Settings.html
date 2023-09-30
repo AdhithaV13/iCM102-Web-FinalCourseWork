@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=KoHo:wght@600&family=Krona+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Knewave&family=KoHo:wght@600&family=Krona+One&display=swap" rel="stylesheet">
     </head>
-    <body bgcolor="#282323">
+    <body bgcolor="#282323" id="body3">
         <div id="header"></div>
         <a href="HomePage.html"><img src="assets/Back.png" id="btnBack"></a>
         <img src="assets/Logo.png" id="logo">
@@ -33,8 +33,8 @@
             </div>
         </center>
 
-        <h2 id="txtDarkTheme">Dark Theme</h2>
-        <h2 id="txtWhiteTheme">White Theme</h2>
+        <h2 id="txtDarkTheme" onclick="darkThemeEnabled()">Dark Theme</h2>
+        <h2 id="txtWhiteTheme" onclick="lightThemeEnabled()">White Theme</h2>
 
         <br>
         <br>
@@ -79,6 +79,6 @@
 
         <button id="btnRefresh">Refresh</button>
 
-        <script src="Settings.js"></script>
+        <script src="HomePage.js"></script>
     </body>
 </html>
