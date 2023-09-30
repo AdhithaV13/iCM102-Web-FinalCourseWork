@@ -1,100 +1,47 @@
-let dCount;
-let lCount; 
-
-defaultBgColor();
-
-function defaultBgColor(){
-    if(dCount == 1){
-        darkThemeEnabled();
-    }else if(lCount == 1){
-        lightThemeEnabled();
-    }else{
-        darkThemeEnabled();
-    }
-}
-
 function lightThemeEnabled(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
+    let body = document.getElementById("body");
+    let name = document.getElementById("name");
+    let themes = document.getElementById("themes");
+    let themeUnderline = document.getElementById("themeUnderline");
+    let txtDarkTheme = document.getElementById("txtDarkTheme");
+    let txtWhiteTheme = document.getElementById("txtWhiteTheme");
+    let backgrounds = document.getElementById("backgrounds");
+    let backgroundUnderline = document.getElementById("backgroundUnderline");
+    let language = document.getElementById("language");
+    let languageUnderline = document.getElementById("languageUnderline");
 
-    lCount = 1;
-    dCount = 0;
-
-    body3.setAttribute("style" , "background-color : white");
+    body.setAttribute("style" , "background-color : white");
+    name.setAttribute("style" , "color : white");
+    themes.setAttribute("style" , "color : black");
+    themeUnderline.setAttribute("style" , "background-color : black");
+    txtDarkTheme.setAttribute("style" , "color : white");
+    txtWhiteTheme.setAttribute("style" , "color : white");
+    backgrounds.setAttribute("style" , "color : black");
+    backgroundUnderline.setAttribute("style" , "background-color : black");
+    language.setAttribute("style" , "color : black");
+    languageUnderline.setAttribute("style" , "background-color : black");
 }
 
 function darkThemeEnabled(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-    
-    lCount = 0;
-    dCount = 1;
+    let body = document.getElementById("body");
+    let name = document.getElementById("name");
+    let themes = document.getElementById("themes");
+    let themeUnderline = document.getElementById("themeUnderline");
+    let txtDarkTheme = document.getElementById("txtDarkTheme");
+    let txtWhiteTheme = document.getElementById("txtWhiteTheme");
+    let backgrounds = document.getElementById("backgrounds");
+    let backgroundUnderline = document.getElementById("backgroundUnderline");
+    let language = document.getElementById("language");
+    let languageUnderline = document.getElementById("languageUnderline");
 
-    body3.setAttribute("style" , "background-color : #282323");
-}
-
-function pic1Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/1.jpg");
-}
-
-function pic2Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/2.jpg");
-}
-
-function pic3Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/3.jpg");
-}
-
-function pic4Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/4.jpg");
-}
-
-function pic5Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/5.jpg");
-}
-
-function pic6Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/6.jpg");
-}
-
-function pic7Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/7.jpg");
-}
-
-function pic8Clicked(){
-    let body1 = document.getElementById("body1");
-    let body2 = document.getElementById("body2");
-    let body3 = document.getElementById("body3");
-
-    body3.setAttribute("style" , "background-image : assets/Backgrounds/8.jpg");
+    body.setAttribute("style" , "background-color : #282323");
+    name.setAttribute("style" , "color : #FF7A00");
+    themes.setAttribute("style" , "color : white");
+    themeUnderline.setAttribute("style" , "background-color : white");
+    txtDarkTheme.setAttribute("style" , "color : black");
+    txtWhiteTheme.setAttribute("style" , "color : black");
+    backgrounds.setAttribute("style" , "color : white");
+    backgroundUnderline.setAttribute("style" , "background-color : white");
+    language.setAttribute("style" , "color : white");
+    languageUnderline.setAttribute("style" , "background-color : white");
 }
